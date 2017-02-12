@@ -1,4 +1,4 @@
-# springboot-workshop
+# cleu springboot angular Test based on springboot-workshop
 
 ## Step 1 - Create a new openshift project
 
