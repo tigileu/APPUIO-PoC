@@ -37,7 +37,7 @@ node {
 }
 
 jar {
-    baseName = 'springboot-workshop'
+    baseName = 'cle-springboot-angular'
     version =  '0.1.0'
 }
 
