@@ -1,5 +1,5 @@
-import {Component} from "@angular/core";
-import {MovieQuoteService, MovieQuote} from "./moviequote.service";
+import { Component } from '@angular/core';
+import { MovieQuoteService, MovieQuote } from './moviequote.service';
 
 @Component({
     template: `
@@ -17,14 +17,13 @@ import {MovieQuoteService, MovieQuote} from "./moviequote.service";
 })
 export class MovieQuoteComponent {
 
-    public quote:MovieQuote;
+    public quote: MovieQuote;
 
-    constructor(private service:MovieQuoteService) {
+    constructor(private service: MovieQuoteService) {
         this.nextQuote();
     }
 
-    nextQuote():void {
+    nextQuote(): void {
         this.service.getRandomQuote().subscribe(quote => this.quote = quote);
     }
-
 }

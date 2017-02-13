@@ -1,19 +1,19 @@
-import {NgModule, ApplicationRef} from '@angular/core';
-import {BrowserModule} from '@angular/platform-browser';
-import {FormsModule} from '@angular/forms';
-import {HttpModule} from '@angular/http';
-import {RouterModule} from '@angular/router';
-import {removeNgStyles, createNewHosts} from '@angularclass/hmr';
+import { NgModule, ApplicationRef } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
+import { HttpModule } from '@angular/http';
+import { RouterModule } from '@angular/router';
+import { removeNgStyles, createNewHosts } from '@angularclass/hmr';
 
 /*
  * Platform and Environment providers/directives/pipes
  */
-import {ENV_PROVIDERS} from './environment';
-import {ROUTES} from './app.routes';
+import { ENV_PROVIDERS } from './environment';
+import { ROUTES } from './app.routes';
 // App is our top level component
-import {App} from './app.component';
-import {NoContent} from './no-content';
-import {MovieQuoteComponent} from "./moviequote/moviequote.component";
+import { App } from './app.component';
+import { NoContent } from './no-content';
+import { MovieQuoteComponent } from './moviequote/moviequote.component';
 
 /**
  * `AppModule` is the main entry point into Angular2's bootstraping process
